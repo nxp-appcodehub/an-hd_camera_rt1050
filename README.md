@@ -14,9 +14,9 @@ compressed JPEG format.
 Please refer to [AN12110](https://www.nxp.com/docs/en/application-note/AN12110.pdf) for complete instructions on how to use this software. 
 
 
-#### Boards: EVK-MIMXRT1050, EVKB-IMXRT1050
-#### Categories: Graphics
-#### Peripherals: VIDEO, DISPLAY, SDMMC
+#### Boards: [EVK-MIMXRT1050](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt1050-evaluation-kit:MIMXRT1050-EVK), [EVKB-IMXRT1050](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt1050-evaluation-kit:MIMXRT1050-EVK)
+#### Categories: Graphics, SDMMC, Vision
+#### Peripherals: DISPLAY, SDMMC, VIDEO
 #### Toolchains: IAR
 
 ## Table of Contents
@@ -30,7 +30,7 @@ Please refer to [AN12110](https://www.nxp.com/docs/en/application-note/AN12110.p
 
 ## 1. Software<a name="step1"></a>
 This demo is built based on NXP MCUXpresso SDK. All required source files to run the demo are contained in this repository.
-- MCUXpresso SDK: 2.x.x
+- MCUXpresso SDK: 2.3.0
 - SD MMC SDIO Card middleware: 2.2.2
 - FatFs: 0.12c
 - libjpeg: 9b
@@ -83,10 +83,10 @@ If you have questions, please create a ticket in NXP Community.
 [![Board badge](https://img.shields.io/badge/Board-EVK&ndash;MIMXRT1050-blue)](https://github.com/search?q=org%3Anxp-appcodehub+EVK-MIMXRT1050+in%3Areadme&type=Repositories) [![Board badge](https://img.shields.io/badge/Board-EVKB&ndash;IMXRT1050-blue)](https://github.com/search?q=org%3Anxp-appcodehub+EVKB-IMXRT1050+in%3Areadme&type=Repositories)
 
 <!----- Categories ----->
-[![Category badge](https://img.shields.io/badge/Category-GRAPHICS-yellowgreen)](https://github.com/search?q=org%3Anxp-appcodehub+graphics+in%3Areadme&type=Repositories)
+[![Category badge](https://img.shields.io/badge/Category-GRAPHICS-yellowgreen)](https://github.com/search?q=org%3Anxp-appcodehub+graphics+in%3Areadme&type=Repositories) [![Category badge](https://img.shields.io/badge/Category-SDMMC-yellowgreen)](https://github.com/search?q=org%3Anxp-appcodehub+sdmmc+in%3Areadme&type=Repositories) [![Category badge](https://img.shields.io/badge/Category-VISION-yellowgreen)](https://github.com/search?q=org%3Anxp-appcodehub+vision+in%3Areadme&type=Repositories)
 
 <!----- Peripherals ----->
-[![Peripheral badge](https://img.shields.io/badge/Peripheral-VIDEO-yellow)](https://github.com/search?q=org%3Anxp-appcodehub+video+in%3Areadme&type=Repositories) [![Peripheral badge](https://img.shields.io/badge/Peripheral-DISPLAY-yellow)](https://github.com/search?q=org%3Anxp-appcodehub+display+in%3Areadme&type=Repositories) [![Peripheral badge](https://img.shields.io/badge/Peripheral-SDMMC-yellow)](https://github.com/search?q=org%3Anxp-appcodehub+sdmmc+in%3Areadme&type=Repositories)
+[![Peripheral badge](https://img.shields.io/badge/Peripheral-DISPLAY-yellow)](https://github.com/search?q=org%3Anxp-appcodehub+display+in%3Areadme&type=Repositories) [![Peripheral badge](https://img.shields.io/badge/Peripheral-SDMMC-yellow)](https://github.com/search?q=org%3Anxp-appcodehub+sdmmc+in%3Areadme&type=Repositories) [![Peripheral badge](https://img.shields.io/badge/Peripheral-VIDEO-yellow)](https://github.com/search?q=org%3Anxp-appcodehub+video+in%3Areadme&type=Repositories)
 
 <!----- Toolchains ----->
 [![Toolchain badge](https://img.shields.io/badge/Toolchain-IAR-orange)](https://github.com/search?q=org%3Anxp-appcodehub+iar+in%3Areadme&type=Repositories)
@@ -103,5 +103,5 @@ Questions regarding the content/correctness of this example can be entered as Is
 ## 7. Release Notes<a name="step7"></a>
 | Version | Description / Update                           | Date                        |
 |:-------:|------------------------------------------------|----------------------------:|
-| 1.0     | Initial release on Application Code HUb        | June 12<sup>th</sup> 2023 |
+| 1.0     | Initial release on Application Code Hub        | August 10<sup>th</sup> 2023 |
 

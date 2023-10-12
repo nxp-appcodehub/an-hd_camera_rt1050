@@ -1,6 +1,9 @@
-<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-hd_camera_rt1050" type="app_note" format="projectfile" name="hd_camera">
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-hd_camera_rt1050" type="app_note" format="projectfile" name="hd_camera_rt1050">
+    <display_title>
+        AN12110: Developing a camera application with i.MX RT series
+    </display_title>
     <overview>
-        <![CDATA[This HD camera demo shows how to receive the camera data using CSI driver. In this example, you will see the camera frames shown in the LCD. Optionally, you can touch the LCD panel with you finger, the current frame will be compressed to JPEG format and stored in the microSD card.]]>
+        <![CDATA[This software accompanies application note [AN12110](https://www.nxp.com/docs/en/application-note/AN12110.pdf), which describes how to develop an HD camera application with the NXP i.MX RT1050 processor.]]>
     </overview>
     <toolchains>
         <toolchain name="iar"></toolchain>
@@ -12,12 +15,17 @@
         <hw id="EVK-MIMXRT1050"></hw>
         <hw id="EVKB-IMXRT1050"></hw>
     </nxp_compatible_hw>
+    <nxp_ebh_hw>
+        <ebh id="nxp_rk043fn66hs_ctg"></ebh>
+    </nxp_ebh_hw>
     <peripherals>
-        <peripheral name="video"></peripheral>
         <peripheral name="display"></peripheral>
         <peripheral name="sdmmc"></peripheral>
+        <peripheral name="video"></peripheral>
     </peripherals>
     <categories>
         <category name="graphics"></category>
+        <category name="sdmmc"></category>
+        <category name="vision"></category>
     </categories>
 </data:item>
